@@ -1,4 +1,4 @@
-$(document).redy(function(){
+$(function(){
     $('#root').append(<ul></ul>);
     var element = $('<li><span></span><button class="button_for_delete">Удалить</button></li>');
     $('span', element).text("Сделать задание #3 по web-программированию");
